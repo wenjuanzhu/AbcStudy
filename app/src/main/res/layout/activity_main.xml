@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:columnCount="4"
+    android:rowCount="7"
+
+    android:orientation="horizontal"
+    android:background="#fbfcfb"
+    android:layout_marginLeft="0dp"
+    android:layout_marginRight="0dp"
+    android:layout_marginTop="2dp"
+    android:layout_alignParentBottom="false"
+    tools:context=".MainActivity">
+
+    <Button android:text="@string/txta"
+        android:textSize="@dimen/font_size"
+        android:background="#fb6d6d"
+        android:id="@+id/btnA"
+        android:textAllCaps="false"
+        />
+    <Button android:text="@string/txtb"
+        android:textSize="@dimen/font_size"
+        android:background="#befb6d6d"
+        android:textAllCaps="false"
+        android:id="@+id/btnB" />
+    <Button android:text="@string/txtc"
+        android:textSize="@dimen/font_size"
+        android:background="#fb6d6d"
+        android:textAllCaps="false"
+        android:id="@+id/btnC" />
+    <Button android:text="@string/txtd"
+        android:textSize="@dimen/font_size"
+        android:background="#befb6d6d"
+        android:textAllCaps="false"
+        android:id="@+id/btnD" />
+    <Button android:text="@string/txte"
+        android:textSize="@dimen/font_size"
+        android:background="#fbc67c"
+        android:textAllCaps="false"
+        android:id="@+id/btnE" />
+    <Button android:text="@string/txtf"
+        android:textSize="@dimen/font_size"
+        android:background="#a0fbc67c"
+        android:textAllCaps="false"
+        android:id="@+id/btnF" />
+    <Button android:text="@string/txtg"
+        android:textSize="@dimen/font_size"
+        android:background="#fbc67c"
+        android:textAllCaps="false"
+        android:id="@+id/btnG" />
+    <Button android:text="@string/txth"
+        android:textSize="@dimen/font_size"
+        android:background="#a0fbc67c"
+        android:textAllCaps="false"
+        android:id="@+id/btnH" />
+    <Button android:text="@string/txti"
+        android:textSize="@dimen/font_size"
+        android:background="#fbf085"
+        android:textAllCaps="false"
+        android:id="@+id/btnI" />
+    <Button android:text="@string/txtj"
+        android:textSize="@dimen/font_size"
+        android:background="#a2fbef85"
+        android:textAllCaps="false"
+        android:id="@+id/btnJ" />
+    <Button android:text="@string/txtk"
+        android:textSize="@dimen/font_size"
+        android:background="#fbf085"
+        android:textAllCaps="false"
+        android:id="@+id/btnK" />
+    <Button android:text="@string/txtl"
+        android:textSize="@dimen/font_size"
+        android:background="#a2fbef85"
+        android:textAllCaps="false"
+        android:id="@+id/btnL" />
+    <Button android:text="@string/txtm"
+        android:textSize="@dimen/font_size"
+        android:background="#b2faa2"
+        android:textAllCaps="false"
+        android:id="@+id/btnM" />
+    <Button android:text="@string/txtn"
+        android:textSize="@dimen/font_size"
+        android:background="#a6b2faa2"
+        android:id="@+id/btnN" />
+    <Button android:text="@string/txto"
+        android:textSize="@dimen/font_size"
+        android:background="#b2faa2"
+        android:textAllCaps="false"
+        android:id="@+id/btnO" />
+    <Button android:text="@string/txtp"
+        android:textSize="@dimen/font_size"
+        android:background="#a6b2faa2"
+        android:textAllCaps="false"
+        android:id="@+id/btnP" />
+    <Button android:text="@string/txtq"
+        android:textSize="@dimen/font_size"
+        android:background="#7ce5fa"
+        android:textAllCaps="false"
+        android:id="@+id/btnQ" />
+    <Button android:text="@string/txtr"
+        android:textSize="@dimen/font_size"
+        android:background="#aa7ce5fa"
+        android:textAllCaps="false"
+        android:id="@+id/btnR" />
+    <Button android:text="@string/txts"
+        android:textSize="@dimen/font_size"
+        android:background="#7ce5fa"
+        android:textAllCaps="false"
+        android:id="@+id/btnS" />
+    <Button android:text="@string/txtt"
+        android:textSize="@dimen/font_size"
+        android:background="#aa7ce5fa"
+        android:textAllCaps="false"
+        android:id="@+id/btnT" />
+    <Button android:text="@string/txtu"
+        android:textSize="@dimen/font_size"
+        android:background="#b3a8f6"
+        android:textAllCaps="false"
+        android:id="@+id/btnU" />
+    <Button android:text="@string/txtv"
+        android:textSize="@dimen/font_size"
+        android:background="#adb2a8f6"
+        android:textAllCaps="false"
+        android:id="@+id/btnV" />
+    <Button android:text="@string/txtw"
+        android:textSize="@dimen/font_size"
+        android:background="#b3a8f6"
+        android:textAllCaps="false"
+        android:id="@+id/btnW" />
+    <Button android:text="@string/txtx"
+        android:textSize="@dimen/font_size"
+        android:background="#adb2a8f6"
+        android:textAllCaps="false"
+        android:id="@+id/btnX" />
+
+    <Button android:text="@string/test"
+        android:textSize="@dimen/font_size"
+        android:background="#e870f5"
+        android:textAllCaps="false"
+        android:id="@+id/btnTest" />
+
+    <Button android:text="@string/txty"
+        android:textSize="@dimen/font_size"
+        android:background="#a6e870f5"
+        android:textAllCaps="false"
+        android:id="@+id/btnY" />
+
+    <Button android:text="@string/txtz"
+        android:textSize="@dimen/font_size"
+        android:background="#e870f5"
+        android:textAllCaps="false"
+        android:id="@+id/btnZ" />
+
+    <Button android:text="@string/abc"
+        android:textSize="@dimen/font_size"
+        android:background="#a6e870f5"
+        android:textAllCaps="false"
+        android:id="@+id/btnSmall" />
+
+</GridLayout>
+
+
+
